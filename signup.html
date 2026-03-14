@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .signup-box {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            width: 320px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #2196F3;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0b7dda;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="signup-box">
+    <h2>Sign Up</h2>
+
+    <form>
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter Full Name" required>
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter Email" required>
+
+        <label>Username</label>
+        <input type="text" placeholder="Create Username" required>
+
+        <label>Password</label>
+        <input type="password" placeholder="Create Password" required>
+
+        <label>Confirm Password</label>
+        <input type="password" placeholder="Confirm Password" required>
+
+        <button type="submit">Register</button>
+    </form>
+
+</div>
+
+</body>
+</html>
